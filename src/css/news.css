@@ -282,6 +282,9 @@ margin-bottom: 6.8em;
 }
 
 @media screen and (max-width:450px) {
+    .banner__news .love__line p{
+        font-size: 32px;
+    }
     .main__news .collum-hotnews .left__hotnews .new__box {
         left: 0;
         transform: unset;

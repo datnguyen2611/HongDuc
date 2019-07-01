@@ -35,7 +35,7 @@ html {
     text-align: center;
     position: absolute;
     top: 20%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family: MontserratR;
     color: #fff;
@@ -46,11 +46,77 @@ html {
 .banner__chamsoc .love__line .suckhoe{
     font-family: MontserratB;
 }
-.banner__chamsoc .love__line p{
-    
+.pink__content{
+    padding: 5em 0;
+    background-color: #f5b1bf;
 }
+.pink__content .text__right{
+    width:80%;
+}
+.pink__content .text__right .line{
+    height: 2px;
+    width:70%;
+    margin-left: 0;
+    background-color: #e31c45;
 
+}
+.pink__content .text__right h3{
+    color: #3d3d3d;
+    font-size: 28px;
+    font-family: MontserratB;
 
+}
+.pink__content .text__right .time__upd{
+    color: #3d3d3d;
+    font-size: 19px;
+    font-family: MontserratM;
+}
+.pink__content .text__right .text{
+    color: #3d3d3d;
+    font-size: 18px;
+    font-family: MontserratM;
+}
+.tin__tuc .text__tintuc{
+    font-size: 22px;
+    font-family: MontserratB;
+    color: #000;
+    margin: 2em 0;
+    text-transform: uppercase;
+}
+/* list tin tuc */
+.list__tintuc{
+    margin-top:6em ;
+}
+.list__tintuc .tintuc{
+position: relative;
+margin-bottom: 6.8em;
+}
+.list__tintuc .tintuc .text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    padding:1em 0.5em;
+}
+.list__tintuc .tintuc .text:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fd79a8;
+    content: "";
+    opacity: .6;
+    z-index: 1;
+}
+.list__tintuc .tintuc .text p{
+    position: relative;
+    font-size: 17px;
+    font-family: MontserratB;
+    color:#fff;
+    z-index: 2;
+    margin-bottom: 0;
+}
 
 
 

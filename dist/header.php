@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../src/css/footer.css">
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/news.css">
+    <link rel="stylesheet" href="../src/css/chitiet.css">
     <link rel="stylesheet" href="../src/css/chamsoc.css">
+    <link rel="stylesheet" href="../src/css/lienhe.css">
 </head>
 
 
