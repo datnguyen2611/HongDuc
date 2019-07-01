@@ -4,42 +4,42 @@
 
 
 $(document).ready(function () {
-	var vid = document.getElementById("bgvid");
-	var pauseButton = document.querySelector(".button-pause");
+	// var vid = document.getElementById("bgvid");
+	// var pauseButton = document.querySelector(".button-pause");
 
-	if (window.matchMedia('(prefers-reduced-motion)').matches) {
-		vid.removeAttribute("autoplay");
-		vid.pause();
-		pauseButton.innerHTML = "Paused";
-	}
+	// if (window.matchMedia('(prefers-reduced-motion)').matches) {
+	// 	vid.removeAttribute("autoplay");
+	// 	vid.pause();
+	// 	pauseButton.innerHTML = "Paused";
+	// }
 
-	function vidFade() {
-		vid.classList.add("stopfade");
-	}
+	// function vidFade() {
+	// 	vid.classList.add("stopfade");
+	// }
 
-	vid.addEventListener('ended', function () {
-		// only functional if "loop" is removed 
-		vid.pause();
-		// to capture IE10
-		vidFade();
-	});
-	pauseButton.addEventListener("click", function (event) {
-		event.preventDefault();
-		vid.classList.toggle("stopfade");
-		if (vid.paused) {
-			vid.play();
-			$('.click-play').css('display', 'none');
-			$('.click-pause').css('display', 'block');
-			$('.bg-banner').css('opacity', '0');
+	// vid.addEventListener('ended', function () {
+	// 	// only functional if "loop" is removed 
+	// 	vid.pause();
+	// 	// to capture IE10
+	// 	vidFade();
+	// });
+	// pauseButton.addEventListener("click", function (event) {
+	// 	event.preventDefault();
+	// 	vid.classList.toggle("stopfade");
+	// 	if (vid.paused) {
+	// 		vid.play();
+	// 		$('.click-play').css('display', 'none');
+	// 		$('.click-pause').css('display', 'block');
+	// 		$('.bg-banner').css('opacity', '0');
 
 
-		} else {
-			vid.pause();
-			$('.click-pause').css('display', 'none');
-			$('.click-play').css('display', 'block');
-			$('.bg-banner').css('opacity', '1');
-		}
-	});
+	// 	} else {
+	// 		vid.pause();
+	// 		$('.click-pause').css('display', 'none');
+	// 		$('.click-play').css('display', 'block');
+	// 		$('.bg-banner').css('opacity', '1');
+	// 	}
+	// });
 	$('#owl-demo').owlCarousel({
 		loop: true,
 		// nav:true,
@@ -79,6 +79,32 @@ $(document).ready(function () {
 		}
 		
 	})
+
+	$('.library').owlCarousel({
+		center: true,
+		items:3,
+		nav:true,
+		slideSpeed: 1000,
+		autoplay :true,
+		autoplaySpeed:200,
+		loop:true,
+		margin:40,
+		responsive:{
+			600:{
+				items:2,
+				
+			},
+			400:{
+				items:2,
+				nav:false
+				
+			},
+			0:{
+				items:1,
+				nav:false
+			}
+		}
+	});
 	//slide
 	// frame__video
 	$('.video').parent().click(function () {
@@ -109,6 +135,4 @@ $(document).ready(function () {
     //   }
 // });
 // });
-	
-
 });

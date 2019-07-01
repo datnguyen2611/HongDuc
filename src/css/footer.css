@@ -1,0 +1,87 @@
+.footer{
+    background-image: url(../images/footer__bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.footer:before{
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 0;
+    opacity: .4;
+}
+.footer .text_footer{text-align: center;color:#FFF;font-family:  MontserratB;font-size: 20px;padding-top: 3em;}
+.footer .text_footer h3{
+    margin-bottom: 1em;
+    position: relative;
+    z-index: 1;
+}
+.footer .text_footer p{
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 1;
+}
+.footer .icon_footer{
+    padding-bottom: 1em;
+}
+.footer .icon{
+    text-align: center;
+    max-width: 27%;
+    margin: auto;
+    border-radius: 50%;
+}
+.footer .text-icon{
+    text-align: center;
+    margin-top: 1em;
+    color:#FFF;
+    font-family: MontserratM;
+    font-size:18px;
+}.footer{
+    background-image: url(../images/footer__bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.footer:before{
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 0;
+    opacity: .4;
+}
+.footer .text_footer{text-align: center;color:#FFF;font-family:  MontserratB;font-size: 20px;padding-top: 3em;}
+.footer .text_footer h3{
+    margin-bottom: 1em;
+    position: relative;
+    z-index: 1;
+}
+.footer .text_footer p{
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 1;
+}
+.footer .icon_footer{
+    padding-bottom: 1em;
+}
+.footer .icon{
+    text-align: center;
+    max-width: 27%;
+    margin: auto;
+    border-radius: 50%;
+}
+.footer .text-icon{
+    text-align: center;
+    margin-top: 1em;
+    color:#FFF;
+    font-family: MontserratM;
+    font-size:18px;
+}
