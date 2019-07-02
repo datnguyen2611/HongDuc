@@ -146,14 +146,20 @@ $(document).ready(function () {
 		$('#lib-sidebar').hide();
 
 		$('.mini-sidebar').on('click', function() {
-			$('#lib-sidebar').show(500);
-			$('.bg-overlay').show(500);
+			$('#lib-sidebar').show(350);
+			$('.bg-overlay').show(350);
 		});
 
 		$('.bg-overlay').on('click', function () {
 			$('#lib-sidebar').hide(200);
 			$('.bg-overlay').hide(200);
+		});
+
+		$('#lib-sidebar ul li a').on('click', function () {
+			$('#lib-sidebar').hide(350);
+			$('.bg-overlay').hide(350);
 		})
+	} else {
+		$('#lib-sidebar').show();
 	}
-	
 });
