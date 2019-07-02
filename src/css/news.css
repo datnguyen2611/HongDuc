@@ -9,6 +9,7 @@ html {
     height: 39em;
     width: 100%;
     position: relative;
+    object-fit: cover;
 }
 
 .banner__news:before {

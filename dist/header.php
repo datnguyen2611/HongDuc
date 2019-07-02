@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../src/css/chitiet.css">
     <link rel="stylesheet" href="../src/css/chamsoc.css">
     <link rel="stylesheet" href="../src/css/lienhe.css">
+    <link rel="stylesheet" href="../src/css/gioithieu.css">
 </head>
 
 

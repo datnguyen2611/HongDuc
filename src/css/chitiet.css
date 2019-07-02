@@ -2,6 +2,7 @@
 .banner__chitiet .banner_img {
     height: 39em;
     width: 100%;
+    object-fit: cover;
     position: relative;
 }
 
