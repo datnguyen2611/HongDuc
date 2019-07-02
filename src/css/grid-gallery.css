@@ -1,0 +1,102 @@
+#gallery {
+    display: grid;
+    /* height: calc(100vh - 10px); */
+    /* grid-template: repeat(6, 1fr)/repeat(6, 1fr); */
+    /* grid-gap: 0.5em; */
+    /* display: grid; */
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 15px;
+}
+
+@media (max-width: 800px) {
+    #gallery {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #gallery>div.gallery-item {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 800px) and (max-width: 350px) {
+    #gallery>div.gallery-item {
+        width: 98%;
+    }
+}
+
+#gallery>div.gallery-item:first-child,
+#gallery>div.gallery-item:nth-child(8) {
+    grid-column: span 6;
+    grid-row: span 6;
+}
+
+#gallery>div.gallery-item:nth-child(2),
+#gallery>div.gallery-item:nth-child(3) {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+#gallery>div.gallery-item:nth-child(4),
+#gallery>div.gallery-item:nth-child(5),
+#gallery>div.gallery-item:nth-child(6),
+#gallery>div.gallery-item:nth-child(7) {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+#gallery>div.gallery-item>a {
+    opacity: 0;
+    color: #000;
+    visibility: hidden;
+    position: absolute;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-out;
+}
+
+#gallery>div.gallery-item>img {
+    width: 100%;
+    min-height: 100%;
+    transition: all ease 1s;
+    object-fit: cover;
+}
+
+#gallery>div.gallery-item:hover img {
+    opacity: 1;
+    color: #000;
+    z-index: 1000;
+    visibility: visible;
+    background-color: #f1a7b591;
+}
+
+#gallery>div.gallery-item:hover a {
+    opacity: 1;
+    color: #000;
+    z-index: 1000;
+    visibility: visible;
+    background-color: #f1a7b591;
+}
+
+#gallery>div.gallery-item {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery div.gallery-item,
+#gallery a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#gallery>div.gallery-item:nth-child(9) {
+    grid-column: span 3;
+    grid-row: span 3;
+}

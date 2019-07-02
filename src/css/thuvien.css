@@ -1,0 +1,80 @@
+#lib-sidebar {
+    background-color: #f5aab9;
+}
+
+.lib-collapse {
+    width: 100%;
+}
+
+.lib-collapse ul li a {
+    color: #df2047 !important;
+    font-size: 20px;
+    font-family: MontserratM, sans-serif !important;
+}
+
+.lib-collapse ul li:first-child {
+    border-bottom: 2px solid #df2047 !important;
+}
+
+.lib-collapse ul li {
+    border-bottom: 1.5px solid #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* 
+    lib-content
+*/
+.tieude-tab {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.tieude-tab li a {
+    color: #df2047 !important;
+    font-family: MontserratM, sans-serif !important;
+    font-size: 20px;
+}
+
+ul.tieude-tab li a.active {
+    background-color: transparent !important;
+    border-bottom: 1.5px solid #df2047;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+#library-wrapepr .list__page {
+    padding: 93px 0px;
+    margin-bottom: 0px !important;
+}
+
+.search-ic {
+    font-size: 3em;
+    color: pink;
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#gallery>div.gallery-item:hover .lib-title {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.lib-title {
+    padding: 5px 0px;
+    z-index: 1100;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin-bottom: 0px;
+    border-top: 2px solid white;
+    width: 100%;
+    font-family: MontserratB, sans-serif;
+    color: #ffffff;
+    font-size: 1.25em;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s ease-out;
+}
