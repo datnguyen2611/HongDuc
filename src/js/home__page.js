@@ -92,7 +92,6 @@ $(document).ready(function () {
 		responsive:{
 			600:{
 				items:2,
-				
 			},
 			400:{
 				items:2,
@@ -141,6 +140,20 @@ $(document).ready(function () {
 		event.preventDefault();
 		$('.imagepreview').attr('src', $(this).find('img').attr('src'));
 		$('#imagemodal').modal('show');   
-	});		
+	});
+
+	if ($(window).width() < 768) {
+		$('#lib-sidebar').hide();
+
+		$('.mini-sidebar').on('click', function() {
+			$('#lib-sidebar').show(500);
+			$('.bg-overlay').show(500);
+		});
+
+		$('.bg-overlay').on('click', function () {
+			$('#lib-sidebar').hide(200);
+			$('.bg-overlay').hide(200);
+		})
+	}
 	
 });

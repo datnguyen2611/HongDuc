@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="row min-vh-100">
             <!-- sidebar -->
-            <aside class="col-12 col-md-2 p-0" id="lib-sidebar">
+            <aside class="col-8 col-md-2 p-0" id="lib-sidebar">
                 <nav class="navbar navbar-expand navbar-dark flex-md-column flex-row align-items-start py-2">
                     <div class="collapse navbar-collapse lib-collapse">
                         <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
@@ -22,20 +22,28 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pl-0 text-center" href="#"><i class="fas fa-book"></i> <span
-                                        class="d-none d-md-inline">Câu truyện</span></a>
+                                        class="d-md-inline">Câu truyện</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pl-0 text-center" href="#"><i class="fas fa-image"></i> <span
-                                        class="d-none d-md-inline">Hình ảnh</span></a>
+                                        class="d-md-inline">Hình ảnh</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pl-0 text-center" href="#"><i class="fas fa-video"></i> <span
-                                        class="d-none d-md-inline">Video</span></a>
+                                        class="d-md-inline">Video</span></a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </aside>
+
+            <!-- Toggle danh muc -->
+            <p class="mini-sidebar">
+                Danh mục
+            </p>
+            <div class="bg-overlay"></div>
+            <!-- /Toggle danh muc -->
+
             <!-- /sidebar -->
 
             <!-- content -->
