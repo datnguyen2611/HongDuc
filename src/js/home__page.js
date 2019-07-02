@@ -135,4 +135,12 @@ $(document).ready(function () {
     //   }
 // });
 // });
+
+	// Zoom image
+	$('.list-image .gallery-item').on('click', function(event) {
+		event.preventDefault();
+		$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+		$('#imagemodal').modal('show');   
+	});		
+	
 });

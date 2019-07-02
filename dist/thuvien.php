@@ -78,7 +78,6 @@
                                     aria-labelledby="all-tab">
                                     <div class="gallery-column">
 
-
                                         <?php include "image-gallery.php"?>
                                         
 
