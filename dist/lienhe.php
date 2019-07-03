@@ -27,7 +27,7 @@
 </div>
 <!-- end address -->
 <div class="google__map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.0869279961165!2d105.80938529357904!3d21.01876878737478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab09bb8b3077%3A0xc4b8a072539eb7bd!2zxJDhu5NuZyBo4buTIMSR4buLbmggduG7iyB0cuG6uyBlbQ!5e0!3m2!1svi!2s!4v1561994970743!5m2!1svi!2s" width="100%" height="770" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62696.47845208427!2d106.6872008755607!3d10.847242121087879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752907c32dc5e9%3A0x537182fd5ff41222!2zQuG7h25oIFZp4buHbiDEkGEgS2hvYSBI4buTbmcgxJDhu6lj!5e0!3m2!1svi!2sus!4v1562127379310!5m2!1svi!2sus" width="100%" height="770" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <?php include "footer.php"?>
