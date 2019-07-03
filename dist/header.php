@@ -13,7 +13,12 @@
     <link rel="stylesheet" href="../src/css/chamsoc.css">
     <link rel="stylesheet" href="../src/css/lienhe.css">
     <link rel="stylesheet" href="../src/css/gioithieu.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="../src/css/video.css">
+=======
+    <link rel="stylesheet" href="../src/css/thuvien.css">
+    <link rel="stylesheet" href="../src/css/grid-gallery.css">
+>>>>>>> HongDuc/Duong
 </head>
 
 
