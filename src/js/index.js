@@ -1,8 +1,10 @@
 import $ from "jquery";
 import "bootstrap";
 // import "./js/home__page";
+import "./video.js";
 import "./news__page";
 import "./home__page";
+import "./gioi__thieu";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';

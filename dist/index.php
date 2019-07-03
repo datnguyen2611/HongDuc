@@ -1,5 +1,6 @@
 <body>
     <?php include "header.php"?>
+    <div class="item__number"></div>
     <div class="banner">
         <div class="video__banner">
             <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay

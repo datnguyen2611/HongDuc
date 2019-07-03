@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../src/css/chamsoc.css">
     <link rel="stylesheet" href="../src/css/lienhe.css">
     <link rel="stylesheet" href="../src/css/gioithieu.css">
+    <link rel="stylesheet" href="../src/css/video.css">
 </head>
 
 

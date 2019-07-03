@@ -22,6 +22,14 @@
     src:url("../fonts/Merriweather/Merriweather-Regular.ttf");
     font-family: MerriweatherR;
 }
+@font-face{
+    src:url("../fonts/Font_hand_make/Font_design/freehand.ttf");
+    font-family: freeHand;
+}
+@font-face{
+    src:url("../fonts/Font_hand_make/Font_design/MinionPro/MinionPro-It.ttf");
+    font-family: MinionProR;
+}
 
 body , html{
     width: 100%;
