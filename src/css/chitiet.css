@@ -96,9 +96,19 @@ box-shadow: 1px 1px 22px -3px rgba(0,0,0,0.75);
    width:100%;
    white-space: nowrap;
 }
+.letter__chitiet{
+    padding-top: 2.8em;
+}
+.letter__chitiet .main__letter .text__content{
+    margin-bottom: 1em;
+}
+
 }
 @media screen and (max-width:500px){
     .banner__chitiet .love__line p{
         font-size: 32px;
+    }
+    .letter__chitiet .main__letter .text__content h3{
+        font-size: 20px;
     }
 }

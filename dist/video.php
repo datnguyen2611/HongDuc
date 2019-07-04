@@ -1,5 +1,4 @@
 <?php include "header.php"?>
-<div class="item__number" style="display:none;"></div>
 <div class="banner__video">
     <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
 

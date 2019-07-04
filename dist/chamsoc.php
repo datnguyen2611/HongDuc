@@ -1,4 +1,5 @@
 <?php include "header.php"?>
+<div class="item__number"></div>
 <div class="banner__chamsoc">
     <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
 

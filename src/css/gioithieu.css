@@ -356,7 +356,7 @@ font-family: MontserratM;
        
     }
     .letter__gioithieu .letter .text__content{
-        padding-bottom:0;
+        padding-bottom: 0.5em;
     }
     .letter__gioithieu .letter .main__letter{
         font-size:18px;

@@ -252,7 +252,7 @@ margin-bottom: 6.8em;
 
     .main__news .collum-hotnews .right__hotnews .top__hotnews .text p,
     .main__news .collum-hotnews .right__hotnews .bottom__hotnews .text p {
-        font-size: 20px;
+        font-size: 27px;
     }
 
     .main__news .collum-hotnews .left__hotnews .new__box {
@@ -263,6 +263,22 @@ margin-bottom: 6.8em;
     /* tin tuc */
     .main__tintuc .tintuc .text p{
         font-size: 12px;
+    }
+
+    .main__news .text__hotnews{
+        text-align: center;
+    }
+    .main__news .collum-hotnews .left__hotnews .new__box:before{
+        opacity: .8;
+    }
+    .main__news .collum-hotnews .left__hotnews .new__box{
+        position: relative;
+        right:0;
+        margin-top: -5em;
+        max-width: 100%;
+    }
+    .tin__tuc .text__tintuc{
+        text-align: center;
     }
 }
 

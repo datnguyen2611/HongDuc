@@ -1,4 +1,8 @@
 <div class="footer">
+<div class="banner" style="display:none!important; "> <video class="video" loop muted autoplay>
+                    <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
+                </video></div>
+<div class="item__number" style="display:none!important;"></div>
     <div class="text_footer">
         <h3>TẬP ĐOÀN Y KHOA </h3>
         <p>Tầng 11, XXX - XXX Nguyễn Công Trứ, Phường Nguyễn Thái Bình,<br> Q.1, TP.HCM</p>

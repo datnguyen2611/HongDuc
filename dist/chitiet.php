@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php include "header.php"?>  
 <div class="banner__chitiet">
     <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
 

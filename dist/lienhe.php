@@ -1,5 +1,7 @@
 <?php include "header.php"?>
-
+<div class="banner" style="display:none; "> <video class="video" loop muted autoplay>
+                    <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
+                </video></div>
 <div class="banner__lienhe">
     <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
 

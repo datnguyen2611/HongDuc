@@ -1,9 +1,12 @@
 <?php include "header.php"?>
+<div class="banner" style="display:none; "> <video class="video" loop muted autoplay>
+                    <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
+                </video></div>
 <div class="banner__news">
     <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
 
     <div class="love__line">
-        <img src="../src/images/love_line.png" alt="" class="img-fluid">
+        <object data="../src/images/love_line.svg" type="image/svg+xml"></object>
         <p>tin tức</p>
     </div>
 </div>
@@ -22,7 +25,6 @@
                         <div class="new__box">
                             <h3>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</h3>
                             <hr class="line">
-                            <p class="day__upd">Ngày đăng: 19/06/2019</p>
                             <p class="text">8 tỷ đồng là con số mà đội ngũ cán bộ làm công tác xã hội tại bệnh viện lớn
                                 nhất cả nước này huy động được trong 2018.</p>
                         </div>
