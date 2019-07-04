@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,4 +19,5 @@
     <link rel="stylesheet" href="../src/css/footer.css">
 </head>
 <body>
+<div class="loader"></div>
 <?php include "menu.php"?>

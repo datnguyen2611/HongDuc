@@ -21,7 +21,9 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="left__hotnews">
+                        <div class="heart__line">
                         <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                        </div>
                         <div class="new__box">
                             <h3>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</h3>
                             <hr class="line">

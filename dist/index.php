@@ -161,7 +161,7 @@
     </div>
     <!-- end frame__1 -->
 
-    <div class="frame__video  wow bounceInUp"  data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="frame__video  wow bounceInUp"  data-wow-duration="1s" data-wow-delay="0.2s">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wyx6JDQCslE?autoplay=0&showinfo=0&controls=0"
                 allowfullscreen></iframe>
@@ -172,7 +172,7 @@
 
     <div class="frame__cart">
         <div class="cart">
-            <div class="left__cmt wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="left__cmt wow fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="0.2s">
                 <h3>sự khác biệt của
                     Bệnh viện Hồng Đức
                 </h3>
@@ -185,7 +185,7 @@
                     nhân, hơn 5.000 bệnh nhân nội trú và phẫu thuật nội soi hơn 2.000 ca. </p>
             </div>
             <!-- end left__cmt -->
-            <div class="right__cmt wow fadeInRight"  data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="right__cmt wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.2s">
                 <img src="../src/images/us__care.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -205,53 +205,7 @@
         </div>
         <!-- end text__content -->
 
-        <div class="slide__doctor">
-            <div class="owl-carousel  slide__doc">
-                <div class="item">
-                    <div class="img__slide">
-                        <img src="../src/images/doctor__1.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="text__slide">
-                        <h3>Giáo sư, Tiến sĩ,<br>
-                            Bác sĩ Võ Thành Nhân</h3>
-                        <hr class="line">
-                        <h4>Giám đốc Trung tâm Tim mạch</h4>
-                        <p>Chuyên khoa</p>
-                        <p>Tim mạch</p>
-                    </div>
-                </div>
-                <!-- end__item -->
-                <div class="item">
-                    <div class="img__slide">
-                        <img src="../src/images/doctor__2.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="text__slide">
-                        <h3>Giáo sư, Tiến sĩ,<br>
-                            Bác sĩ Võ Thành Nhân</h3>
-                        <hr class="line">
-                        <h4>Giám đốc Trung tâm Tim mạch</h4>
-                        <p>Chuyên khoa</p>
-                        <p>Tim mạch</p>
-                    </div>
-                </div>
-                <!-- end__item -->
-                <div class="item">
-                    <div class="img__slide">
-                        <img src="../src/images/doctor__3.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="text__slide">
-                        <h3>Giáo sư, Tiến sĩ,<br>
-                            Bác sĩ Võ Thành Nhân</h3>
-                        <hr class="line">
-                        <h4>Giám đốc Trung tâm Tim mạch</h4>
-                        <p>Chuyên khoa</p>
-                        <p>Tim mạch</p>
-                    </div>
-                </div>
-                <!-- end__item -->
-            </div>
-        </div>
-        <!-- end slide__doctor -->
+        <?php include "doi_ngu_bac_si.php"?>
     </div>
     <!-- end doctor__member -->
 
@@ -265,7 +219,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 no_padding_2">
-                        <div class="left_item wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="left_item wow fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="0.2s">
                             <img src="../src/images/news_img.png" alt="" class="img-fluid main__img_left">
                             <div class="left_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
@@ -273,13 +227,13 @@
                         </div>
                     </div>
                     <div class="col-md-4 no_padding_3">
-                        <div class="top__item wow fadeInRight"  data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="top__item wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
                             <img src="../src/images/news_img_2.png" alt="" class="img-fluid main__img_right">
                             <div class="right_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
                             </div>
                         </div>
-                        <div class="bottom__item wow fadeInRight"  data-wow-duration="1s" data-wow-delay="1.2s">
+                        <div class="bottom__item wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.7s">
                             <img src="../src/images/news_img_3.png" alt="" class="img-fluid main__img_right">
                             <div class="right_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
@@ -300,7 +254,7 @@
         </div>
         <!-- end text__frame -->
         <div class="slide__frame">
-            <div class="owl-carousel library">
+            <div class="owl-carousel library  wow fadeInUp"  data-wow-duration="0.5s" data-wow-delay="0.2s">
                 <div class="item">
                     <img src="../src/images/slide__library.png" alt="" class="img-fluid">
                 </div>
@@ -313,7 +267,7 @@
             </div>
         </div>
         <!-- end slide -->
-        <div class="button_goto_library wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="button_goto_library wow fadeInUp"  data-wow-duration="0.5s" data-wow-delay="0.5s">
            <a href=""> <button class="btn-library">
                 TỚI THƯ VIỆN
             </button></a>

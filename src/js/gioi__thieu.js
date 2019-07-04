@@ -1,3 +1,5 @@
+import anime from 'animejs/lib/anime.es.js'; 
+ 
  (function ($) {
    $(document).ready(function () {
      var a = 0;
@@ -50,6 +52,51 @@
          }
        }
 
-     })
+     });
+
+     $('.text_chasing').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+    
+    anime.timeline({loop: false})
+      .add({
+        targets: '.text_chasing .letter',
+        opacity: [0,1],
+        easing: "easeInOutQuad",
+        duration: 1000,
+        offset: '-=875',
+        delay: function(el, i) {
+          return 50 * (i+1)
+        }
+      })
+      .add({
+        targets: '.text_chasing .letter',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      })
+      $('.text_chasing-2').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|[\w,.])/g, "<span class='letter-2'>$&</span>"));
+      });
+      anime.timeline({loop: false})
+      .add({
+        targets: '.text_chasing-2 .letter-2',
+        opacity: [0,1],
+        easing: "easeInOutQuad",
+        duration: 1000,
+        delay: function(el, i) {
+          return 10 * (i+1)
+        }
+      })
+      .add({
+        targets: '.text_chasing-2 .letter-2',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      })
+      
+      
    });
  })(jQuery);

@@ -27,6 +27,7 @@ html {
 .banner__news .love__line {
     position: absolute;
     top: 50%;
+    width: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;

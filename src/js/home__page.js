@@ -1,5 +1,6 @@
 import WOW from 'wowjs/dist/wow.js';
 $(document).ready(function () {
+	
 	$('#owl-demo').owlCarousel({
 		loop: true,
 		// nav:true,
