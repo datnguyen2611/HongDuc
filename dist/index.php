@@ -1,5 +1,5 @@
+<?php include "header.php"?>
 <body>
-    <?php include "header.php"?>
     <div class="banner">
         <div class="video__banner">
             <div class="wrapper">
@@ -28,7 +28,7 @@
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-2">
-                            <div class="item__icon wow fadeIn"  data-wow-duration="0.5s" data-wow-delay="1s">
+                            <div class="item__icon wow fadeIn"  data-wow-duration="0.1s" data-wow-delay="0.1">
                                 <div class="icon"><i class="fas fa-band-aid"></i></div>
                                 <div class="text__icon">
                                     <p>Chăm sóc đặc biệt</p>
@@ -37,7 +37,7 @@
                         </div>
                         <!-- col-md-2 -->
                         <div class="col-sm-2">
-                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.7s" data-wow-delay="1.2s">
+                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.2s" data-wow-delay="0.2s">
                                 <div class="icon"><i class="fas fa-stethoscope"></i></div>
                                 <div class="text__icon">
                                     <p>Chăm sóc chính quy</p>
@@ -46,7 +46,7 @@
                         </div>
                         <!-- col-md-2 -->
                         <div class="col-sm-2">
-                            <div class="item__icon  wow fadeIn"  data-wow-duration="1s" data-wow-delay="1.5s">
+                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.3s" data-wow-delay="0.3s">
                                 <div class="icon"><i class="fas fa-ribbon"></i></div>
                                 <div class="text__icon">
                                     <p>Chăm sóc bệnh nhân ung thư</p>
@@ -55,7 +55,7 @@
                         </div>
                         <!-- col-md-2 -->
                         <div class="col-sm-2">
-                            <div class="item__icon  wow fadeIn"  data-wow-duration="1.2s" data-wow-delay="1.7s">
+                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.4s" data-wow-delay="0.4s">
                                 <div class="icon"><i class="fas fa-running"></i></div>
                                 <div class="text__icon">
                                     <p>Chăm sóc chỉnh hình</p>
@@ -64,7 +64,7 @@
                         </div>
                         <!-- col-md-2 -->
                         <div class="col-sm-2">
-                            <div class="item__icon  wow fadeIn"  data-wow-duration="1.5s" data-wow-delay="1.9s">
+                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.5s" data-wow-delay="0.5s">
                                 <div class="icon"><i class="fas fa-female"></i></div>
                                 <div class="text__icon">
                                     <p>Sức khỏe phụ nữ</p>
@@ -73,7 +73,7 @@
                         </div>
                         <!-- col-md-2 -->
                         <div class="col-sm-2">
-                            <div class="item__icon  wow fadeIn"  data-wow-duration="1.7s" data-wow-delay="2s">
+                            <div class="item__icon  wow fadeIn"  data-wow-duration="0.6s" data-wow-delay="0.6s">
                                 <div class="icon"><i class="fas fa-heartbeat"></i></div>
                                 <div class="text__icon">
                                     <p>Tim mạch</p>
@@ -96,8 +96,8 @@
             <div class="row">
                 <div class=" col-lg-6">
                     <div class="img__left ">
-                        <img src="../src/images/1.png" alt="" class="img-fluid wow fadeInLeft"  data-wow-duration="2s" data-wow-delay="1s">
-                        <div class="coment__tittel wow fadeIn"  data-wow-duration="2s" data-wow-delay="2.5s">
+                        <img src="../src/images/1.png" alt="" class="img-fluid wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="coment__tittel wow fadeIn"  data-wow-duration="1s" data-wow-delay="1s">
                             <h3>
                                 <b> BỆNH VIỆN HỒNG ĐỨC</b><br>
                                 NƠI GẶP GỠ CỦA NỤ CƯỜI
@@ -114,10 +114,10 @@
                 <!-- end img__left -->
                 <div class="col-lg-6">
                     <div class="heart__slide ">
-                        <h3 class="wow fadeInDown"  data-wow-duration="2s" data-wow-delay="1s">CHIA SẺ CỦA BỆNH NHÂN</h3>
-                        <div class="heart__animation wow fadeIn"  data-wow-duration="1s" data-wow-delay="1s">
+                        <h3 class="wow fadeInDown"  data-wow-duration="0.5s" data-wow-delay="0.2s">CHIA SẺ CỦA BỆNH NHÂN</h3>
+                        <div class="heart__animation wow fadeIn"  data-wow-duration="0.5s" data-wow-delay="0.5s">
                             <object data="../src/images/heart__animation.svg" type="image/svg+xml">
-                                <script>
+                                <!-- <script>
                                     $(window).scroll(function(){
                                     animation__heart = document.getElementByClass('test');
                                     the__window = $(window).scrollTop() ;
@@ -127,10 +127,10 @@
                                     });
                                     }
                                     });
-                                </script>
+                                </script> -->
                             </object>
                         </div>
-                        <div class="owl-carousel slide__cmt wow fadeIn"  data-wow-duration="1s" data-wow-delay="5s">
+                        <div class="owl-carousel slide__cmt wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
                             <div class="item">
                                 <p>Chăm sóc rất chu đáo và tận tình .. từ bác sĩ y tá .. lao công ai củng zui ze lịch sự
                                     .. đúng là bỏ tiền ra rất xứng đáng.. rất rất hài lòng</p>
@@ -321,6 +321,3 @@
     </div>
     <!-- end library__slide -->
     <?php include "footer.php"?>
-</body>
-
-</html>

@@ -4,6 +4,7 @@ $(document).ready(function () {
 		loop: true,
 		// nav:true,
 		items: 1,
+		dots:false,
 		slideSpeed: 1000,
 		autoplay: true,
 		autoplaySpeed: 250

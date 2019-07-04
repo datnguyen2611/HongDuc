@@ -53,7 +53,7 @@ body , html{
     background-position: center;
 }
 .video__banner{
-    /* display: none; */
+    display: none;
 }
 .video__banner .video {
     width: 100%;
@@ -73,7 +73,7 @@ body , html{
 .banner .banner__slide{
     position: relative;
     height: auto;
-    display: none;
+    /* display: none; */
 }
 .banner .banner__slide .item img{
     object-fit: cover;
@@ -164,7 +164,7 @@ box-shadow: 13px 15px 66px -30px rgba(0,0,0,0.75);
 
 /* slide__cmt */
 .slide__cmt{
-    position: absolute;
+    position: absolute!important;
     max-width:100%;
     top: 28%;
     left: 50%;

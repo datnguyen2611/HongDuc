@@ -38,4 +38,14 @@
         </div>
     </div>
 </div>
+
+<!-- <script src="../src/js/jquery.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
+<script src="../src/js/owl.carousel.min.js"></script>
+<script src="../src/js/owl.carousel.js"></script>
+<script src="../src/fontawesome/js/all.js"></script>
+<script src="../src/js/wow.js"></script>
+<script src="../src/js/home__page.js"></script> -->
 <script src="bundle.js"></script>
+</body>
+</html>
