@@ -1,5 +1,9 @@
 import WOW from 'wowjs/dist/wow.js';
+
 $(document).ready(function () {
+	// lazy load......
+	
+	
 	
 	$('#owl-demo').owlCarousel({
 		loop: true,

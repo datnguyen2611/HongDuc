@@ -1,5 +1,13 @@
 
-
+img.lazy {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    margin: auto;
+    background: url('../images/oval.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
 .loader{
 	position: fixed;
 	left: 0;

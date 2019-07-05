@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="icon">
-                       <img src="../src/images/phone_icon.png" alt="" class="img-fluid">
+                       <img src="../src/images/phone_icon.png" alt="" class="img-fluid ">
                     </div>
                     <div class="text-icon">
                         <p>098.xxx.xxxx</p>
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="icon">
-                    <img src="../src/images/fax_icon.png" alt="" class="img-fluid">
+                    <img src="../src/images/fax_icon.png" alt="" class="img-fluid ">
                     </div>
                     <div class="text-icon">
                         <p>098.xxx.xxxx</p>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="icon">
-                    <img src="../src/images/gmail_icon.png" alt="" class="img-fluid">
+                    <img src="../src/images/gmail_icon.png" alt="" class="img-fluid ">
                     </div>
                     <div class="text-icon">
                         <p>Jaycce@gmail.com</p>

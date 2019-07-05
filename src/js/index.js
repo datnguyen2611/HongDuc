@@ -1,9 +1,9 @@
 
 
 import $ from "jquery";
-$(window).on('load',function() {
-	$(".loader").fadeOut("slow");
-});
+import Lazy from "jquery-lazy";
+import 'letteringjs';
+import textillate from 'textillate';
 import "bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -18,3 +18,15 @@ import "animate.css/animate.css";
 import "./news__page";
 import "./gioi__thieu";
 import  "./home__page";
+$(window).on('load',function() {
+	$(".loader").fadeOut("slow");
+});
+
+$(function() {
+	$('.lazy').Lazy({
+		effect: 'fadeIn',
+		delay:1000,
+		placeholder: "data:image/svg;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
+	});
+});
+		  

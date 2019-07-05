@@ -1,10 +1,10 @@
 <?php include "header.php"?>
 <div class="banner__video">
-    <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
+    <img data-src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img lazy">
 
     <div class="love__line">
-        <img src="../src/images/love_line.png" alt="" class="img-fluid">
-        <p>Video</p>
+        <img src="../src/images/love_line.svg" alt="" class="img-fluid ">
+        <p class="animated  bounce delay-2s">Video</p>
     </div>
 </div>
 <!-- banner __video -->
@@ -38,7 +38,7 @@
             <div class="col-md-4 flex__item">
                 <div class="item">
                   <a href="">
-                  <div class="img__item"> <img src="../src/images/us__care.png" alt="" class="img-fluid"></div>
+                  <div class="img__item"> <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy"></div>
                     <div class="text__item">
                         <p>Cơ sở vật chất bệnh viện</p>
                     </div>
@@ -48,7 +48,7 @@
                 <!-- end item -->
                 <div class="item">
                    <a href="">
-                   <div class="img__item"> <img src="../src/images/us__care.png" alt="" class="img-fluid"></div>
+                   <div class="img__item"> <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy"></div>
                     <div class="text__item">
                         <p>Cơ sở vật chất bệnh viện</p>
                     </div>
@@ -58,7 +58,7 @@
                 <!-- end item -->
                 <div class="item">
                    <a href="">
-                   <div class="img__item"> <img src="../src/images/us__care.png" alt="" class="img-fluid"></div>
+                   <div class="img__item"> <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy"></div>
                     <div class="text__item">
                         <p>Cơ sở vật chất bệnh viện</p>
                     </div>

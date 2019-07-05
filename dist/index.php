@@ -13,9 +13,9 @@
         <!-- end video__banner -->
         <div class="banner__slide">
             <div id="owl-demo" class="owl-carousel">
-                <div class="item"><img src="../src/images/37.png" alt="The Last of us"></div>
-                <div class="item"><img src="../src/images/37.png" alt="GTA V"></div>
-                <div class="item"><img src="../src/images/37.png" alt="Mirror Edge"></div>
+                <div class="item"><img data-src="../src/images/37.png" alt="The Last of us" class="img-fluid lazy"></div>
+                <div class="item"><img data-src="../src/images/37.png" alt="GTA V" class="img-fluid lazy"></div>
+                <div class="item"><img data-src="../src/images/37.png" alt="Mirror Edge" class="img-fluid lazy"></div>
 
             </div>
 
@@ -96,7 +96,7 @@
             <div class="row">
                 <div class=" col-lg-6">
                     <div class="img__left ">
-                        <img src="../src/images/1.png" alt="" class="img-fluid wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.2s">
+                        <img data-src="../src/images/1.png" alt="" class="img-fluid lazy wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="coment__tittel wow fadeIn"  data-wow-duration="1s" data-wow-delay="1s">
                             <h3>
                                 <b> BỆNH VIỆN HỒNG ĐỨC</b><br>
@@ -186,7 +186,7 @@
             </div>
             <!-- end left__cmt -->
             <div class="right__cmt wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.2s">
-                <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
             </div>
         </div>
         <!-- end cart -->
@@ -220,7 +220,7 @@
                 <div class="row">
                     <div class="col-md-8 no_padding_2">
                         <div class="left_item wow fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="0.2s">
-                            <img src="../src/images/news_img.png" alt="" class="img-fluid main__img_left">
+                            <img data-src="../src/images/news_img.png" alt="" class="img-fluid main__img_left lazy">
                             <div class="left_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
                             </div>
@@ -228,13 +228,13 @@
                     </div>
                     <div class="col-md-4 no_padding_3">
                         <div class="top__item wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
-                            <img src="../src/images/news_img_2.png" alt="" class="img-fluid main__img_right">
+                            <img data-src="../src/images/news_img_2.png" alt="" class="img-fluid main__img_right lazy">
                             <div class="right_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
                             </div>
                         </div>
                         <div class="bottom__item wow fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.7s">
-                            <img src="../src/images/news_img_3.png" alt="" class="img-fluid main__img_right">
+                            <img data-src="../src/images/news_img_3.png" alt="" class="img-fluid main__img_right lazy">
                             <div class="right_text">
                                 <p>7 phương pháp cai thuốc lá - lộ trình cho một tương lai tươi sáng</p>
                             </div>
@@ -256,13 +256,13 @@
         <div class="slide__frame">
             <div class="owl-carousel library  wow fadeInUp"  data-wow-duration="0.5s" data-wow-delay="0.2s">
                 <div class="item">
-                    <img src="../src/images/slide__library.png" alt="" class="img-fluid">
+                    <img data-src="../src/images/slide__library.png" alt="" class="img-fluid lazy">
                 </div>
                 <div class="item">
-                    <img src="../src/images/library__slide__2.png" alt="" class="img-fluid">
+                    <img data-src="../src/images/library__slide__2.png" alt="" class="img-fluid lazy">
                 </div>
                 <div class="item">
-                    <img src="../src/images/library__slide__1.png" alt="" class="img-fluid">
+                    <img data-src="../src/images/library__slide__1.png" alt="" class="img-fluid lazy">
                 </div>
             </div>
         </div>

@@ -3,11 +3,11 @@
                     <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
                 </video></div>
 <div class="banner__news">
-    <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
+    <img data-src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img lazy">
 
     <div class="love__line">
         <object data="../src/images/love_line.svg" type="image/svg+xml"></object>
-        <p>tin tức</p>
+        <p class="animated  bounce delay-2s">tin tức</p>
     </div>
 </div>
 <!-- end banner -->
@@ -22,7 +22,7 @@
                 <div class="col-lg-8">
                     <div class="left__hotnews">
                         <div class="heart__line">
-                        <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                         </div>
                         <div class="new__box">
                             <h3>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</h3>
@@ -36,13 +36,13 @@
                 <div class="col-lg-4">
                     <div class="right__hotnews">
                         <div class="top__hotnews">
-                            <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                            <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                             <div class="text">
                                 <p>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</p>
                             </div>
                         </div>
                         <div class="bottom__hotnews">
-                            <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                            <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                             <div class="text">
                                 <p>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</p>
                             </div>
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -79,7 +79,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -89,7 +89,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -99,7 +99,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -109,7 +109,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -119,7 +119,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -129,7 +129,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -139,7 +139,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -149,7 +149,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -159,7 +159,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -169,7 +169,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -179,7 +179,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>

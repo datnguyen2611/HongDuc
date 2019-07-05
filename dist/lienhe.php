@@ -1,19 +1,17 @@
 <?php include "header.php"?>
-<div class="banner" style="display:none; "> <video class="video" loop muted autoplay>
-                    <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
-                </video></div>
+
 <div class="banner__lienhe">
-    <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
+    <img data-src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img lazy">
 
     <div class="love__line">
-        <img src="../src/images/love_line.png" alt="" class="img-fluid">
-        <p>liên hệ</p>
+        <img src="../src/images/love_line.svg" alt="" class="img-fluid">
+        <p class="animated  bounce delay-2s">liên hệ</p>
     </div>
 </div>
 <!-- end banner -->
 
 <div class="the__address">
-    <img src="../src/images/lienhe/lienhe_img.png" alt="" class="img-fluid">
+    <img data-src="../src/images/lienhe/lienhe_img.png" alt="" class="img-fluid lazy">
     <div class="address__cart">
         <h3>Bệnh viện đa khoa Hồng Đức</h3>
         <div class="phone__number">

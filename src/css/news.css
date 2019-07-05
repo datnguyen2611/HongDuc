@@ -27,17 +27,20 @@ html {
 .banner__news .love__line {
     position: absolute;
     top: 50%;
-    width: 65%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    width: 70%;
+    transform: translate(-50%,-50%);
     z-index: 2;
 }
 
 .banner__news .love__line p {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 43%;
+    left: 43%;
     transform: translate(-50%, -50%);
     font-family: MontserratB;
     color: #fff;
@@ -239,10 +242,10 @@ margin-bottom: 6.8em;
     .banner__news .love__line{
         width: 100%;
     }
-    .banner__news .love__line p{
+    /* .banner__news .love__line p{
      
         width: 100%;
-    }
+    } */
 
     .main__news .collum-hotnews .top__hotnews {
         padding-top: 1.2em;
@@ -298,10 +301,16 @@ margin-bottom: 6.8em;
         padding:0.5em;
     }
 }
+@media screen and (max-width:700px) {
+    .banner__news .love__line p{
+        top: 37%;
+    left: 37%;
+    }
+}
 
 @media screen and (max-width:450px) {
     .banner__news .love__line p{
-        font-size: 32px;
+        font-size: 35px;
     }
     .main__news .collum-hotnews .left__hotnews .new__box {
         left: 0;

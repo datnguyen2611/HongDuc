@@ -2,7 +2,7 @@
             <div class="owl-carousel  slide__doc">
                 <div class="item">
                     <div class="img__slide">
-                        <img src="../src/images/doctor__1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/doctor__1.png" alt="" class="img-fluid lazy">
                     </div>
                     <div class="text__slide">
                         <h3>Giáo sư, Tiến sĩ,<br>
@@ -16,7 +16,7 @@
                 <!-- end__item -->
                 <div class="item">
                     <div class="img__slide">
-                        <img src="../src/images/doctor__2.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/doctor__2.png" alt="" class="img-fluid lazy">
                     </div>
                     <div class="text__slide">
                         <h3>Giáo sư, Tiến sĩ,<br>
@@ -30,7 +30,7 @@
                 <!-- end__item -->
                 <div class="item">
                     <div class="img__slide">
-                        <img src="../src/images/doctor__3.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/doctor__3.png" alt="" class="img-fluid lazy">
                     </div>
                     <div class="text__slide">
                         <h3>Giáo sư, Tiến sĩ,<br>
