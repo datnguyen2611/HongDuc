@@ -4,6 +4,7 @@
     width: 100%;
     position: relative;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .banner__lienhe:before {

@@ -59,7 +59,6 @@
                 type: 'word'
               });
              
-              console.log(oTop +' - '+ scrollTop);
               //$(this).find('.run-text').textillate('start')
           }
       });

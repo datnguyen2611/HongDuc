@@ -54,7 +54,6 @@ $(document).ready(function () {
 		autoplay: true,
 		autoplaySpeed: 200,
 		loop: true,
-		margin: 40,
 		responsive: {
 			600: {
 				items: 2,

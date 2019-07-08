@@ -29,7 +29,7 @@ html {
     top: 50%;
     left: 50%;
     width: 70%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
 }
 
@@ -64,10 +64,16 @@ html {
 .main__news .collum-hotnews .left__hotnews {
     padding-right: 1em;
     position: relative;
+    display: block;
+    text-decoration: none;
+    width: 100%;
 }
 
 .main__news .collum-hotnews .right__hotnews {
     padding-left: 1em;
+    display: block;
+    text-decoration: none;
+    width: 100%;
 }
 
 .main__news .collum-hotnews .left__hotnews .new__box {
@@ -123,10 +129,16 @@ html {
 .main__news .collum-hotnews .right__hotnews .bottom__hotnews {
     padding-top: 1.9em;
     position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
 }
 
 .main__news .collum-hotnews .right__hotnews .top__hotnews {
     position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
 }
 
 .main__news .collum-hotnews .right__hotnews .bottom__hotnews .text,
@@ -160,28 +172,34 @@ html {
     z-index: 0;
     opacity: .6;
 }
+
 /* =================end hot news================================ */
 /*=================== tintuc==================================== */
 
-.tin__tuc .text__tintuc{
+.tin__tuc .text__tintuc {
     font-size: 22px;
     font-family: MontserratB;
     color: #000;
     margin: 2em 0;
     text-transform: uppercase;
 }
-.main__tintuc .tintuc{
-position: relative;
-margin-bottom: 6.8em;
+
+.main__tintuc .tintuc {
+    position: relative;
+    margin-bottom: 6.8em;
+    display: block;
+    text-decoration: none;
 }
-.main__tintuc .tintuc .text{
+
+.main__tintuc .tintuc .text {
     position: absolute;
     bottom: 0;
     left: 0;
-    width:100%;
-    padding:1em 0.5em;
+    width: 100%;
+    padding: 1em 0.5em;
 }
-.main__tintuc .tintuc .text:before{
+
+.main__tintuc .tintuc .text:before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -192,31 +210,35 @@ margin-bottom: 6.8em;
     opacity: .6;
     z-index: 1;
 }
-.main__tintuc .tintuc .text p{
+
+.main__tintuc .tintuc .text p {
     position: relative;
     font-size: 17px;
     font-family: MontserratB;
-    color:#fff;
+    color: #fff;
     z-index: 2;
     margin-bottom: 0;
 }
 
 /* list__page */
-.list__page{
+.list__page {
     position: relative;
     margin-bottom: 8em;
 }
+
 .list__page .pagination {
-    justify-content: center!important;
+    justify-content: center !important;
 }
-.list__page .page-link{
-    border:unset;
-    font-family:  MontserratR;
-    color:#fd79a8;
+
+.list__page .page-link {
+    border: unset;
+    font-family: MontserratR;
+    color: #fd79a8;
     margin: 0 0.3em;
 }
-.list__page .page-item .page-link.active{
-    color:#FFF;
+
+.list__page .page-item .page-link.active {
+    color: #FFF;
     background-color: #df2047;
     border-radius: 50%;
     line-height: 1;
@@ -239,9 +261,11 @@ margin-bottom: 6.8em;
     .banner__news .banner_img {
         height: auto;
     }
-    .banner__news .love__line{
+
+    .banner__news .love__line {
         width: 100%;
     }
+
     /* .banner__news .love__line p{
      
         width: 100%;
@@ -250,6 +274,7 @@ margin-bottom: 6.8em;
     .main__news .collum-hotnews .top__hotnews {
         padding-top: 1.2em;
     }
+
     .main__news .collum-hotnews .left__hotnews {
         padding-right: 0;
     }
@@ -265,23 +290,26 @@ margin-bottom: 6.8em;
     }
 
     /* tin tuc */
-    .main__tintuc .tintuc .text p{
+    .main__tintuc .tintuc .text p {
         font-size: 12px;
     }
 
-    .main__news .text__hotnews{
+    .main__news .text__hotnews {
         text-align: center;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box:before{
+
+    .main__news .collum-hotnews .left__hotnews .new__box:before {
         opacity: .8;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box{
+
+    .main__news .collum-hotnews .left__hotnews .new__box {
         position: relative;
-        right:0;
+        right: 0;
         margin-top: -5em;
         max-width: 100%;
     }
-    .tin__tuc .text__tintuc{
+
+    .tin__tuc .text__tintuc {
         text-align: center;
     }
 }
@@ -290,28 +318,32 @@ margin-bottom: 6.8em;
     .main__news .collum-hotnews .left__hotnews .new__box h3 {
         font-size: 16px;
     }
-    .main__tintuc .tintuc .text p{
+
+    .main__tintuc .tintuc .text p {
         font-size: 18px;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box{
+
+    .main__news .collum-hotnews .left__hotnews .new__box {
         bottom: 0;
         left: 0;
         top: unset;
         max-width: 100%;
-        padding:0.5em;
+        padding: 0.5em;
     }
 }
+
 @media screen and (max-width:700px) {
-    .banner__news .love__line p{
+    .banner__news .love__line p {
         top: 37%;
-    left: 37%;
+        left: 37%;
     }
 }
 
 @media screen and (max-width:450px) {
-    .banner__news .love__line p{
+    .banner__news .love__line p {
         font-size: 35px;
     }
+
     .main__news .collum-hotnews .left__hotnews .new__box {
         left: 0;
         transform: unset;
@@ -319,19 +351,26 @@ margin-bottom: 6.8em;
         top: unset;
         max-width: 100%;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box .text{
-        font-size:12px;
+
+    .main__news .collum-hotnews .left__hotnews .new__box .text {
+        font-size: 12px;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box .day__upd{
-        font-size:12px;
+
+    .main__news .collum-hotnews .left__hotnews .new__box .day__upd {
+        font-size: 12px;
         margin-bottom: 0;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box h3{
-        font-size:15px;
+
+    .main__news .collum-hotnews .left__hotnews .new__box h3 {
+        font-size: 15px;
     }
-    .main__news .collum-hotnews .left__hotnews .new__box .line{margin-top: 0;}
+
+    .main__news .collum-hotnews .left__hotnews .new__box .line {
+        margin-top: 0;
+    }
+
     .main__news .collum-hotnews .right__hotnews .top__hotnews .text p,
-     .main__news .collum-hotnews .right__hotnews .bottom__hotnews .text p{
-         font-size:15px;
-     }
+    .main__news .collum-hotnews .right__hotnews .bottom__hotnews .text p {
+        font-size: 15px;
+    }
 }

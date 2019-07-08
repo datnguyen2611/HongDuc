@@ -20,7 +20,7 @@
         <div class="collum-hotnews">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="left__hotnews">
+                    <a class="left__hotnews" href="#">
                         <div class="heart__line">
                         <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                         </div>
@@ -30,23 +30,24 @@
                             <p class="text">8 tỷ đồng là con số mà đội ngũ cán bộ làm công tác xã hội tại bệnh viện lớn
                                 nhất cả nước này huy động được trong 2018.</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-4">
                     <div class="right__hotnews">
-                        <div class="top__hotnews">
+                        <a class="top__hotnews" href="#">
                             <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                             <div class="text">
                                 <p>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</p>
                             </div>
-                        </div>
-                        <div class="bottom__hotnews">
+                        </a>
+
+                        <a class="bottom__hotnews" href="#">
                             <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
                             <div class="text">
                                 <p>Bệnh nhân rơi nước mắt khi ra viện vì sự tử tế của thầy thuốc</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <!-- end col -->
@@ -68,122 +69,122 @@
         <div class="main__tintuc">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="#">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="#">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="#">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="#">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
-                    <div class="tintuc">
+                    <a class="tintuc" href="">
                         <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
-                    </div>
+                    </a>
                     <!-- end tintuc -->
                 </div>
                 <!-- col-dm-4 -->
@@ -196,29 +197,7 @@
 </div>
 <!-- end tin__tuc -->
 
-<div class="list__page">
-    <div class="container">
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-end">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-double-left"></i></a>
-                </li>
-                <li class="page-item disabled"><a class="page-link active" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <!-- <li class="page-item"><a class="page-link" href="#">.</a></li>
-                <li class="page-item"><a class="page-link" href="#">.</a></li>
-                <li class="page-item"><a class="page-link" href="#">.</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                <li class="page-item"><a class="page-link" href="#">6</a></li> -->
-                <li class="page-item">
-                    <a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</div>
+<?php include 'pagination.php' ?> 
 
 
 <?php include 'footer.php'?>
