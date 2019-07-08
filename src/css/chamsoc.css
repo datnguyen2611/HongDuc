@@ -28,6 +28,7 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 70%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
@@ -35,13 +36,13 @@ html {
 .banner__chamsoc .love__line p {
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: MontserratR;
     color: #fff;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 60px;
     width: 100%;
 }
 .banner__chamsoc .love__line .suckhoe{
@@ -136,8 +137,19 @@ margin-bottom: 6.8em;
         width: 100%;
     }
 }
+@media screen and (max-width:767px){
+    .pink__content .text__right{
+        width: 100%;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    .pink__content .text__right .line{
+        width: 100%;
+    }
+}
 @media screen and (max-width:450px){
     .banner__chamsoc .love__line p{
         font-size:30px;
     }
+    
 }

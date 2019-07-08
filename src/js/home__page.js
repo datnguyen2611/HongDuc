@@ -1,52 +1,18 @@
-// var  effect = function (){
-
-// }
-
+import WOW from 'wowjs/dist/wow.js';
 
 $(document).ready(function () {
-	// var vid = document.getElementById("bgvid");
-	// var pauseButton = document.querySelector(".button-pause");
-
-	// if (window.matchMedia('(prefers-reduced-motion)').matches) {
-	// 	vid.removeAttribute("autoplay");
-	// 	vid.pause();
-	// 	pauseButton.innerHTML = "Paused";
-	// }
-
-	// function vidFade() {
-	// 	vid.classList.add("stopfade");
-	// }
-
-	// vid.addEventListener('ended', function () {
-	// 	// only functional if "loop" is removed 
-	// 	vid.pause();
-	// 	// to capture IE10
-	// 	vidFade();
-	// });
-	// pauseButton.addEventListener("click", function (event) {
-	// 	event.preventDefault();
-	// 	vid.classList.toggle("stopfade");
-	// 	if (vid.paused) {
-	// 		vid.play();
-	// 		$('.click-play').css('display', 'none');
-	// 		$('.click-pause').css('display', 'block');
-	// 		$('.bg-banner').css('opacity', '0');
-
-
-	// 	} else {
-	// 		vid.pause();
-	// 		$('.click-pause').css('display', 'none');
-	// 		$('.click-play').css('display', 'block');
-	// 		$('.bg-banner').css('opacity', '1');
-	// 	}
-	// });
+	// lazy load......
+	
+	
+	
 	$('#owl-demo').owlCarousel({
 		loop: true,
 		// nav:true,
 		items: 1,
+		dots:false,
 		slideSpeed: 1000,
 		autoplay: true,
-		autoplaySpeed: 200
+		autoplaySpeed: 250
 	});
 	$('.slide__cmt').owlCarousel({
 		loop: true,
@@ -54,7 +20,7 @@ $(document).ready(function () {
 		items: 1,
 		slideSpeed: 1000,
 		autoplay: true,
-		autoplaySpeed: 200
+		autoplaySpeed: 250
 
 	});
 
@@ -65,7 +31,7 @@ $(document).ready(function () {
 		item: 3,
 		slideSpeed: 1000,
 		autoplay: true,
-		autoplaySpeed: 200,
+		autoplaySpeed: 250,
 		responsive: {
 			0: {
 				items: 1
@@ -115,24 +81,18 @@ $(document).ready(function () {
 			$(this).children(".playpause").fadeIn();
 		}
 	});
+$(window).scroll(function(){
+	var c = 0;
 
-	// $(window).scroll(function(e)
-	// {
-	// 	var offsetRange = $(window).height(),
-	//     offsetTop = $(window).scrollTop() + offsetRange + $(".video").outerHeight(true),
-	//     offsetBottom = offsetTop + offsetRange;
+	// var scroll__video = $('.banner').offset().top ;
+	if(c == 0 && $(window).scrollTop() > $('.banner').offset().top){
+		$('.video').get(0).pause();
+	}
+	else{
+		$('.video').get(0).play();
+	}
+});
 
-	// $(".video").each(function () { 
-	//   var y1 = $(this).offset().top;
-	//   var y2 = offsetTop;
-	//   if (y1 + $(this).outerHeight(true) < y2 || y1 > offsetBottom) {
-	// 	this.play();
-	//   } else {
-
-	// 	this.pause(); 
-	//   }
-	// });
-	// });
 
 	// Zoom image
 	$('.list-image .gallery-item').on('click', function (event) {
@@ -169,4 +129,24 @@ $(document).ready(function () {
 		resizeScreen();
 	});
 
+
+
+
+
+	// wow
+	var wow = new WOW(
+		{
+		  boxClass:     'wow',      // animated element css class (default is wow)
+		  animateClass: 'animated', // animation css class (default is animated)
+		  offset:       0,          // distance to the element when triggering the animation (default is 0)
+		  mobile:       true,       // trigger animations on mobile devices (default is true)
+		  live:         true,       // act on asynchronously loaded content (default is true)
+		  callback:     function(box) {
+			// the callback is fired every time an animation is started
+			// the argument that is passed in is the DOM node being animated
+		  },
+		  scrollContainer: null // optional scroll container selector, otherwise use window
+		}
+	  );
+	  wow.init();
 });

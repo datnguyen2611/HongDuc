@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HongDuc</title>
     <link rel="stylesheet" href="../src/css/header.css">
-    <link rel="stylesheet" href="../src/css/footer.css">
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/news.css">
     <link rel="stylesheet" href="../src/css/chitiet.css">
@@ -16,40 +16,8 @@
     <link rel="stylesheet" href="../src/css/video.css">
     <link rel="stylesheet" href="../src/css/thuvien.css">
     <link rel="stylesheet" href="../src/css/grid-gallery.css">
+    <link rel="stylesheet" href="../src/css/footer.css">
 </head>
-
-
-
-
-<div class="menu-header">
-<nav class="navbar navbar-expand-lg navbar-light  color_white">
- <div class="container">
- <a class="navbar-brand" href="#"><img src="../src/images/logo.png" alt="" class="img-fluid logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse item-right" id="navbarNav" >
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">trang chủ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">chuyên khoa</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">giới thiệu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">thư viện</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">tin tức</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">liên hệ</a>
-      </li>
-    </ul>
-  </div>
- </div>
-</nav>
-</div>
+<body>
+<div class="loader"></div>
+<?php include "menu.php"?>

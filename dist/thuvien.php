@@ -1,14 +1,14 @@
 <?php include "header.php"?>
-<div class="banner__chitiet">
-    <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
+<div class="banner__thuvien">
+    <img data-src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img lazy">
 
     <div class="love__line">
-        <img src="../src/images/love_line.png" alt="" class="img-fluid">
-        <p>chi tiết</p>
+        <img src="../src/images/love_line.svg" alt="" class="img-fluid ">
+        <p class="animated  bounce delay-2s">Thư viện</p>
     </div>
 </div>
 <!-- end banner -->
-
+<div class="item__number"></div>
 <div id="library-wrapepr">
     <div class="container-fluid">
         <div class="row min-vh-100">
@@ -18,7 +18,7 @@
                     <div class="collapse navbar-collapse lib-collapse">
                         <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
                             <li class="nav-item text-center">
-                                <img src="../src/images/logo.png" class="img-fluid" alt="">
+                                <img src="../src/images/logo.png" class="img-fluid " alt="">
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link pl-0 text-center" href="#"><i class="fas fa-book"></i> <span

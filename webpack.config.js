@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+var HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 module.exports ={
      entry : './src/js/index.js',
      output:{
@@ -40,9 +41,26 @@ module.exports ={
             {
                 test: /\.(png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader?limit=100000'
+            },
+            {
+              test: require.resolve('wowjs/dist/wow.js'),
+                loader: 'exports-loader?this.WOW'
+            },
+            {
+              test: /\.(gif|png|jpe?g|svg)$/i,
+              use: [
+                'file-loader',
+                {
+                  loader: 'image-webpack-loader',
+                  options: {
+                    bypassOnDebug: true, // webpack@1.x
+                    disable: true, // webpack@2.x and newer
+                  },
+                },
+              ],
             }
-         ]
-         
+            
+         ],
      },
    
      plugins: [
@@ -53,8 +71,8 @@ module.exports ={
           'window.jQuery': 'jquery',
           Popper: ['popper.js', 'default']
         }),
-
         // ...
+         new HardSourceWebpackPlugin()
       ],
      mode :'development'
 

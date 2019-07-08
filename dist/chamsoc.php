@@ -1,9 +1,10 @@
 <?php include "header.php"?>
+<div class="item__number"></div>
 <div class="banner__chamsoc">
-    <img src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img">
+    <img data-src="../src/images/news/banner__news.png" alt="" class="img-fluid banner_img lazy">
 
     <div class="love__line">
-        <img src="../src/images/love_line.png" alt="" class="img-fluid">
+        <img src="../src/images/love_line.svg" alt="" class="img-fluid ">
         <p>chăm sóc<br><b class="suckhoe"> sức khỏe</b></p>
         <p></p>
     </div>
@@ -13,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="../src/images/us__care.png" alt="" class="img-fluid">
+                <img data-src="../src/images/us__care.png" alt="" class="img-fluid lazy">
             </div>
             <!-- end col-md-6 -->
             <div class="col-md-6">
@@ -37,7 +38,7 @@
     <div class="row">
     <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -47,7 +48,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -57,7 +58,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -67,7 +68,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -77,7 +78,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -87,7 +88,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -97,7 +98,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -107,7 +108,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
@@ -117,7 +118,7 @@
                 <!-- col-dm-4 -->
                 <div class="col-md-4">
                     <div class="tintuc">
-                        <img src="../src/images/news/hot__news_1.png" alt="" class="img-fluid">
+                        <img data-src="../src/images/news/hot__news_1.png" alt="" class="img-fluid lazy">
                         <div class="text">
                             <p>Cho phép bảo hiểm thương mại tham gia bảo hiểm y tế</p>
                         </div>
