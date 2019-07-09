@@ -25,7 +25,6 @@ $(window).on('load',function() {
 $(function() {
 	$('.lazy').Lazy({
 		effect: 'fadeIn',
-		delay:1000,
 		placeholder: "data:image/svg;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7..."
 	});
 });

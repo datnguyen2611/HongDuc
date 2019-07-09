@@ -68,7 +68,7 @@ html {
 .video__banner .video {
     width: 100%;
     object-fit: fill;
-    height: 100%;
+    height: 37em;
 }
 
 .video__banner .wrapper {
@@ -76,7 +76,7 @@ html {
     width: auto;
     position: relative;
     width: 100%;
-    height: 88%;
+    height: 37em;
     margin: auto;
 }
 
@@ -89,7 +89,7 @@ html {
 
 .banner .banner__slide .item img {
     object-fit: cover;
-    height: 87%;
+    height: 37em;
 }
 
 /* banner__slide */
@@ -785,6 +785,10 @@ html {
 
 /* ================================responsive======================= */
 @media screen and (max-width: 990px) {
+    .video__banner .video{
+        height:auto;
+    }
+
     .video__banner .wrapper {
         height: 100%;
     }
@@ -1012,4 +1016,38 @@ html {
         padding: 0.5em 1.5em;
     }
 
+}
+
+
+
+
+/* style svg */
+
+svg .the__heart__animation{
+
+    troke-width:10px;
+    fill : transparent;
+    stroke-dasharray: 5000;
+    stroke-dashoffset: -5000;
+    /* animation : animate 15s forwards; */
+    
+}
+@keyframes animate{
+	0%{
+         fill-opacity: 0;
+       fill:#FFF;
+	   stroke:#e76697;
+	
+	 
+		}
+		80%{
+			stroke-dashoffset: 0;
+		}
+	100%{
+	
+	    fill:#e76697;
+        stroke-dashoffset: 0;
+        stroke:transparent;
+	}
+    
 }

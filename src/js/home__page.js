@@ -148,4 +148,16 @@ $(window).scroll(function(){
 		}
 	  );
 	  wow.init();
+
+	//   set offsettop heart animation
+	$('.frame__1').each(function(){
+		$(window).scroll(function(){
+			var animation__heart = $('.the__heart__animation');
+		   var the__window = $(window).scrollTop() ;
+		   if((the__window + 100 )> animation__heart.offset().top){
+		   animation__heart.css("animation"," animate 8s forwards");
+		   }
+		   });
+	})
+
 });
