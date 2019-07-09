@@ -419,11 +419,18 @@ html {
 .slide__doctor {
     padding: 5em 0;
 }
+<<<<<<< HEAD
 
 
 .slide__doctor .slide__doc .item .img__slide img{
     height: 23em;
     object-fit: cover;
+=======
+.slide__doc.owl-carousel .owl-stage { margin: 0 auto !important; }
+.slide__doctor .slide__doc{
+    max-width: 70%;
+    margin: auto;
+>>>>>>> HongDuc/Duong
 }
 
 .slide__doctor .slide__doc .item  .text__slide {

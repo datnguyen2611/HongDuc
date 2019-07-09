@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 node_modules/*
+=======
+./node_modules
+./dist/bundle.js
+node_modules/
+>>>>>>> HongDuc/Duong
