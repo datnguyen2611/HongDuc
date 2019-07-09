@@ -5,6 +5,7 @@
     position: relative;
     object-fit: cover;
     overflow: hidden;
+
 }
 
 .banner__lienhe:before {
@@ -24,7 +25,7 @@
     top: 50%;
     left: 50%;
     width: 70%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
 }
 
@@ -42,54 +43,67 @@
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+
 /* addresss */
-.the__address{
+.the__address {
     position: relative;
 }
-.the__address img{
+
+.the__address img {
     width: 100%;
     max-width: 100%;
-    height:auto;
+    height: auto;
     margin: auto;
 }
-.the__address .address__cart:before{
+
+.the__address .address__cart:before {
     position: absolute;
     left: 0;
     top: 0;
-    width:100%;
+    width: 100%;
     height: 100%;
-    content:"";
+    content: "";
     background-color: #f18ea2;
     opacity: 0.8;
     z-index: 0;
 
 }
+
 .the__address .address__cart {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%);
-    padding:1em 3em 1em 1em;
+    padding: 1em 3em 1em 1em;
     z-index: 1;
 }
-.the__address .address__cart h3{font-size:30px;font-family: MontserratSB;color:#FFF;position: relative;margin-bottom: 1em;}
-.the__address .address__cart .phone__number{
-    font-size:20px;
-    font-family: MontserratR;
-    position: relative;
+
+.the__address .address__cart h3 {
+    font-size: 30px;
+    font-family: MontserratSB;
     color: #FFF;
+    position: relative;
     margin-bottom: 1em;
 }
-.the__address .address__cart .diachi{
-    font-size:20px;
+
+.the__address .address__cart .phone__number {
+    font-size: 20px;
     font-family: MontserratR;
     position: relative;
     color: #FFF;
     margin-bottom: 1em;
 }
 
-.the__address .address__cart .gmail{
-    font-size:20px;
+.the__address .address__cart .diachi {
+    font-size: 20px;
+    font-family: MontserratR;
+    position: relative;
+    color: #FFF;
+    margin-bottom: 1em;
+}
+
+.the__address .address__cart .gmail {
+    font-size: 20px;
     font-family: MontserratR;
     position: relative;
     color: #FFF;
@@ -100,38 +114,44 @@
 
 
 /* ================responsive=============== */
-@media screen and (max-width:990px){
+@media screen and (max-width:990px) {
+
     .banner__lienhe,
-.banner__lienhe .banner_img {
-    height: auto;
-   
-}
-.banner__lienhe .love__line{
-    width:100%;
-}
-.banner__lienhe .love__line p{
-   /* width:100%; */
-   white-space: nowrap;
-}
-.the__address .address__cart{
-    right:0;
-    top: 0;
-    left:unset;
-    bottom:0;
-    transform: unset;
-    padding:0.5em;
-}
+    .banner__lienhe .banner_img {
+        height: auto;
+
+    }
+
+    .banner__lienhe .love__line {
+        width: 100%;
+    }
+
+    .banner__lienhe .love__line p {
+        /* width:100%; */
+        white-space: nowrap;
+    }
+
+    .the__address .address__cart {
+        right: 0;
+        top: 0;
+        left: unset;
+        bottom: 0;
+        transform: unset;
+        padding: 0.5em;
+    }
 
 }
-@media screen and (max-width:700px){
-    .the__address .address__cart{
+
+@media screen and (max-width:700px) {
+    .the__address .address__cart {
         position: relative;
     }
 }
-@media screen and (max-width:500px){
-    .banner__lienhe .love__line p{
+
+@media screen and (max-width:500px) {
+    .banner__lienhe .love__line p {
         font-size: 35px;
         top: 37%;
-    left: 37%;
+        left: 37%;
     }
 }

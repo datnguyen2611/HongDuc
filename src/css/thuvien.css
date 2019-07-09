@@ -1,9 +1,10 @@
-.banner__thuvien,
+.banner__thuvien, .banner__thuvien .banner_img.banner__thuvien,
 .banner__thuvien .banner_img {
     height: 39em;
     width: 100%;
     object-fit: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .banner__thuvien:before {
@@ -39,24 +40,24 @@
     top: 50%;
     left: 50%;
     width: 70%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 2;
- }
- 
- .banner__thuvien .love__line p {
-     text-align: center;
-     position: absolute;
-     top: 40%;
-     left: 40%;
-     transform: translate(-50%, -50%);
-     font-family: MontserratB;
-     color: #fff;
-     text-transform: uppercase;
-     font-size: 50px;
-     animation-duration: 3s;
-     animation-delay: 2s;
-     animation-iteration-count: infinite;
- }
+}
+
+.banner__thuvien .love__line p {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: MontserratB;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
 
 
 #lib-sidebar {
@@ -86,6 +87,12 @@
 /* 
     lib-content
 */
+.gallery-video .gallery-item a:hover {
+    background-color: none !important;
+}
+#lib-content {
+    margin-bottom: 80px;
+}
 .tieude-tab {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -107,7 +114,7 @@ ul.tieude-tab li a.active {
 }
 
 #library-wrapepr .list__page {
-    padding: 93px 0px;
+    padding: 93px 0px 0px;
     margin-bottom: 0px !important;
 }
 
@@ -119,10 +126,11 @@ ul.tieude-tab li a.active {
     padding: 10px;
 }
 
-#gallery>div.gallery-item:hover .lib-title {
+#gallery > div.gallery-item:hover .lib-title {
     visibility: visible !important;
     opacity: 1 !important;
 }
+
 .lib-title {
     padding: 5px 0px;
     z-index: 1100;
@@ -139,22 +147,26 @@ ul.tieude-tab li a.active {
     visibility: hidden;
     transition: 0.4s ease-out;
 }
-@media screen and (max-width:990px){
-    .banner__thuvien .love__line p{
+
+@media screen and (max-width: 990px) {
+    .banner__thuvien .love__line p {
         font-size: 50px;
     }
-    .banner__thuvien .love__line{
+
+    .banner__thuvien .love__line {
         width: 100%;
-        left:50%;
+        left: 50%;
     }
 }
-@media screen and (max-width:650px){
-    .banner__thuvien .love__line p{
-        font-size:37px;
+
+@media screen and (max-width: 650px) {
+    .banner__thuvien .love__line p {
+        font-size: 37px;
     }
 }
-@media screen and (max-width:400px){
-    .banner__thuvien .love__line p{
+
+@media screen and (max-width: 400px) {
+    .banner__thuvien .love__line p {
         top: 33%;
         left: 35%;
     }

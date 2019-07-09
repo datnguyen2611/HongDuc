@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 	$('.slide__doc').owlCarousel({
 		nav: true,
-		loop: true,
+		loop: false,
 		margin: 20,
 		item: 3,
 		slideSpeed: 1000,
@@ -37,7 +37,7 @@ $(document).ready(function () {
 				items: 1
 			},
 			600: {
-				items: 2
+				items: 1
 			},
 			1000: {
 				items: 3

@@ -5,6 +5,7 @@
     width: 100%;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .banner__gioithieu:before {

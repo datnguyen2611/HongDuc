@@ -1,7 +1,7 @@
 <?php include "header.php"?>
 <body>
     <div class="banner">
-        <div class="video__banner">
+        <div class="video__banner" style="display:none;">
             <div class="wrapper">
                 <video class="video" loop muted autoplay>
                     <source src="http://thenewcode.com/assets/videos/blue.mp4" type="video/mp4" height: />
@@ -12,14 +12,11 @@
 
         <!-- end video__banner -->
         <div class="banner__slide">
-            <div id="owl-demo" class="owl-carousel">
+                <div id="owl-demo" class="owl-carousel">
                 <div class="item"><img data-src="../src/images/37.png" alt="The Last of us" class="img-fluid lazy"></div>
                 <div class="item"><img data-src="../src/images/37.png" alt="GTA V" class="img-fluid lazy"></div>
                 <div class="item"><img data-src="../src/images/37.png" alt="Mirror Edge" class="img-fluid lazy"></div>
-
             </div>
-
-
         </div>
 
         <!-- banner slide -->
