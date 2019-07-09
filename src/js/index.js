@@ -18,6 +18,7 @@ import "animate.css/animate.css";
 import "./news__page";
 import "./gioi__thieu";
 import  "./home__page";
+import "./thuvien.js";
 $(window).on('load',function() {
 	$(".loader").fadeOut("slow");
 });

@@ -15,8 +15,8 @@
             <!-- sidebar -->
             <aside class="col-8 col-md-2 p-0" id="lib-sidebar">
                 <nav class="navbar navbar-expand navbar-dark flex-md-column flex-row align-items-start py-2">
-                    <div class="collapse navbar-collapse lib-collapse">
-                        <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                    <div class="collapse navbar-collapse lib-collapse" id="sidebar-wrap">
+                        <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between" id="sidebar-menu">
                             <li class="nav-item text-center">
                                 <img src="../src/images/logo.png" class="img-fluid " alt="">
                             </li>
