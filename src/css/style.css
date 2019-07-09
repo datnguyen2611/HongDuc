@@ -355,6 +355,7 @@ object-fit: cover;
  .slide__doctor{
     padding:5em 0;
 }
+.slide__doc.owl-carousel .owl-stage { margin: 0 auto !important; }
 .slide__doctor .slide__doc{
     max-width: 70%;
     margin: auto;

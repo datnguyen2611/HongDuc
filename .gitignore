@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 ./node_modules
-=======
 ./dist/bundle.js
->>>>>>> HongDuc/Duong
+node_modules/

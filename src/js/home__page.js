@@ -2,9 +2,6 @@ import WOW from 'wowjs/dist/wow.js';
 
 $(document).ready(function () {
 	// lazy load......
-	
-	
-	
 	$('#owl-demo').owlCarousel({
 		loop: true,
 		// nav:true,
@@ -26,12 +23,13 @@ $(document).ready(function () {
 
 	$('.slide__doc').owlCarousel({
 		nav: true,
-		loop: true,
+		loop: false,
 		margin: 20,
-		item: 3,
+		items: 3,
+		center: false,
 		slideSpeed: 1000,
 		autoplay: true,
-		autoplaySpeed: 250,
+		autoplaySpeed: 350,
 		responsive: {
 			0: {
 				items: 1
