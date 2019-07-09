@@ -160,3 +160,19 @@ ul.tieude-tab li a.active {
     }
 
 }
+
+/* sticky sidebar */
+#sidebar-wrap {
+    width: 100%;
+    position: relative;
+    
+}
+.sticky-sidebar {
+    position: fixed !important;
+    max-width: 250px !important;
+    width: 15% !important;
+    left: 5px;
+    z-index: 100;
+    top: 5px;
+    
+}
