@@ -1,4 +1,6 @@
-$(function () {
+
+
+$('#sidebar-wrap').each(function(){
     var addStickySidebar = function () {
         var menuSidebar = $('#sidebar-wrap').offset().top;
         if ($(window).width() > 991) {
@@ -20,5 +22,5 @@ $(function () {
     $(window).resize(function () {
         addStickySidebar();
     });
-
-});
+})
+    

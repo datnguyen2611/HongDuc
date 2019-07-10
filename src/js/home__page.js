@@ -6,7 +6,7 @@ $(document).ready(function () {
 		loop: true,
 		// nav:true,
 		items: 1,
-		dots:false,
+		dots: false,
 		slideSpeed: 1000,
 		autoplay: true,
 		autoplaySpeed: 250
@@ -44,11 +44,12 @@ $(document).ready(function () {
 
 	})
 
-	$('.library').owlCarousel({
+	$('.the__library').owlCarousel({
 		center: true,
 		items: 3,
 		nav: true,
 		slideSpeed: 1000,
+		margin:50,
 		autoplay: true,
 		autoplaySpeed: 200,
 		loop: true,
@@ -69,26 +70,34 @@ $(document).ready(function () {
 	});
 	//slide
 	// frame__video
+	// $('.video').get(0).play();
 	$('.video').parent().click(function () {
 		if ($(this).children(".video").get(0).paused) {
-			$(this).children(".video").get(0).play();
 			$(this).children(".playpause").fadeOut();
+			$(this).children(".video").get(0).play();
+			
 		} else {
 			$(this).children(".video").get(0).pause();
 			$(this).children(".playpause").fadeIn();
 		}
 	});
-$(window).scroll(function(){
-	var c = 0;
 
-	// var scroll__video = $('.banner').offset().top ;
-	if(c == 0 && $(window).scrollTop() > $('.banner').offset().top){
-		$('.video').get(0).pause();
-	}
-	else{
-		$('.video').get(0).play();
-	}
-});
+	
+	$('.banner').each(function(){
+		$(window).scroll(function () {
+			var c = 0;
+			var tittleIcon = $('.titel__icon');
+			if(tittleIcon){
+				tittleIcon.offset().top;
+				if (c == 0 && $(window).scrollTop() >tittleIcon.offset().top) {
+					$('.video').get(0).pause();
+					$('.playpause').children(".playpause").fadeIn();
+				} 
+			}
+			
+			
+		});
+	});
 
 
 	// Zoom image
@@ -99,7 +108,7 @@ $(window).scroll(function(){
 	});
 
 	// resize menu sidebar
-	var resizeScreen = function(){
+	var resizeScreen = function () {
 		if ($(window).width() < 768) {
 			$('#lib-sidebar').hide();
 
@@ -122,7 +131,7 @@ $(window).scroll(function(){
 		}
 	}
 	resizeScreen();
-	$(window).resize(function () {	
+	$(window).resize(function () {
 		resizeScreen();
 	});
 
@@ -131,31 +140,46 @@ $(window).scroll(function(){
 
 
 	// wow
-	var wow = new WOW(
-		{
-		  boxClass:     'wow',      // animated element css class (default is wow)
-		  animateClass: 'animated', // animation css class (default is animated)
-		  offset:       0,          // distance to the element when triggering the animation (default is 0)
-		  mobile:       true,       // trigger animations on mobile devices (default is true)
-		  live:         true,       // act on asynchronously loaded content (default is true)
-		  callback:     function(box) {
+	var wow = new WOW({
+		boxClass: 'wow', // animated element css class (default is wow)
+		animateClass: 'animated', // animation css class (default is animated)
+		offset: 0, // distance to the element when triggering the animation (default is 0)
+		mobile: true, // trigger animations on mobile devices (default is true)
+		live: true, // act on asynchronously loaded content (default is true)
+		callback: function (box) {
 			// the callback is fired every time an animation is started
 			// the argument that is passed in is the DOM node being animated
-		  },
-		  scrollContainer: null // optional scroll container selector, otherwise use window
-		}
-	  );
-	  wow.init();
+		},
+		scrollContainer: null // optional scroll container selector, otherwise use window
+	});
+	wow.init();
 
-	//   set offsettop heart animation
-	$('.frame__1').each(function(){
-		$(window).scroll(function(){
-			var animation__heart = $('.the__heart__animation');
-		   var the__window = $(window).scrollTop() ;
-		   if((the__window + 100 )> animation__heart.offset().top){
-		   animation__heart.css("animation"," animate 8s forwards");
-		   }
-		   });
-	})
 
+	//heart animation
+
+	$('.frame__1').each(function() {
+		$(window).scroll(function() {
+			var animationHeart = $('.the__heart__animation');
+			 var tittelIcon = $('.titel__icon').offset().top;
+				var theWindow = $(window).scrollTop();
+				if (theWindow  > tittelIcon) {
+					animationHeart.css("animation", "animate 2s forwards");
+				}
+
+		});
+	});
+
+
+
+	// header fixed
+	$('.menu-header').each(function(){
+		$(window).on('scroll', function() {
+			if (Math.round($(window).scrollTop()) > 10) {
+			  $('.menu-header').addClass('scrolled');
+			} else {
+			  $('.menu-header').removeClass('scrolled');
+			}
+			
+		});
+	});
 });
