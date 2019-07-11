@@ -32,7 +32,6 @@ $(document).ready(function () {
     if (The__letter.length > 0) {
       var scrollTop = $(window).scrollTop();
       The__letter = The__letter.offset().top - window.innerHeight;
-      console.log(The__letter);
       if (The__letter < scrollTop) {
         $('.wrapper__letter').find('.letter__eff').textillate({
           loop: false,

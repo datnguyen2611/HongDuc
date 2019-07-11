@@ -83,13 +83,12 @@ $(document).ready(function () {
 	});
 
 		$(window).scroll(function () {
-			var c = 0;
 			var tittleIcon = $('.titel__icon');
 			if(tittleIcon.length>0){
 				tittleIcon = tittleIcon.offset().top;
-				if (c == 0 && $(window).scrollTop() >tittleIcon) {
+				if ($(window).scrollTop() >tittleIcon) {
 					var video =$('.video');
-					if(video){
+					if(video.length>0){
 						video.get(0).pause();
 						$('.playpause').children(".playpause").fadeIn();
 					}
@@ -156,7 +155,7 @@ $(document).ready(function () {
 	//heart animation
 
 		$(window).scroll(function() {
-			var animationHeart = $('.the__heart__animation');
+			var animationHeart = $('.test');
 			 var tittelIcon = $('.titel__icon');
 			 if(tittelIcon.length > 0){
 				 tittelIcon = tittelIcon.offset().top;
@@ -170,7 +169,6 @@ $(document).ready(function () {
 
 
 	// header fixed
-	$('.menu-header').each(function(){
 		$(window).on('scroll', function() {
 			if (Math.round($(window).scrollTop()) > 10) {
 			  $('.menu-header').addClass('scrolled');
@@ -179,5 +177,4 @@ $(document).ready(function () {
 			}
 			
 		});
-	});
 });
