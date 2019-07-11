@@ -82,22 +82,20 @@ $(document).ready(function () {
 		}
 	});
 
-	
-	$('.banner').each(function(){
 		$(window).scroll(function () {
 			var c = 0;
 			var tittleIcon = $('.titel__icon');
-			if(tittleIcon){
-				tittleIcon.offset().top;
-				if (c == 0 && $(window).scrollTop() >tittleIcon.offset().top) {
-					$('.video').get(0).pause();
-					$('.playpause').children(".playpause").fadeIn();
+			if(tittleIcon.length>0){
+				tittleIcon = tittleIcon.offset().top;
+				if (c == 0 && $(window).scrollTop() >tittleIcon) {
+					var video =$('.video');
+					if(video){
+						video.get(0).pause();
+						$('.playpause').children(".playpause").fadeIn();
+					}
 				} 
 			}
-			
-			
 		});
-	});
 
 
 	// Zoom image
@@ -157,17 +155,17 @@ $(document).ready(function () {
 
 	//heart animation
 
-	$('.frame__1').each(function() {
 		$(window).scroll(function() {
 			var animationHeart = $('.the__heart__animation');
-			 var tittelIcon = $('.titel__icon').offset().top;
-				var theWindow = $(window).scrollTop();
+			 var tittelIcon = $('.titel__icon');
+			 if(tittelIcon.length > 0){
+				 tittelIcon = tittelIcon.offset().top;
+				 var theWindow = $(window).scrollTop();
 				if (theWindow  > tittelIcon) {
-					animationHeart.css("animation", "animate 2s forwards");
+					animationHeart.css("animation", "animate 4s forwards");
 				}
-
+			 }
 		});
-	});
 
 
 
