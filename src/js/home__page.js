@@ -155,7 +155,7 @@ $(document).ready(function () {
 	//heart animation
 
 		$(window).scroll(function() {
-			var animationHeart = $('.test');
+			var animationHeart = $('.the__heart__animation');
 			 var tittelIcon = $('.titel__icon');
 			 if(tittelIcon.length > 0){
 				 tittelIcon = tittelIcon.offset().top;
